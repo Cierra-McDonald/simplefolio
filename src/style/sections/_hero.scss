@@ -15,9 +15,9 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-  background-image: url('/src/assets/background.png');
-  background-position: center;
-  background-size: cover;
+  background: url('/src/assets/background.png') 0 0 / cover;
+  // background-size: cover;
+  // background-position: center;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
