@@ -10,13 +10,12 @@
   color: $dark-blue-text;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
-  position: relative;
   top: 0;
   left: 0;
   bottom: 0;
   right: 0;
   z-index: -1;
-  background: url("/src/assets/background.png");
+  background-image: url('/src/assets/background.png');
   background-position: center;
   background-size: cover;
 
