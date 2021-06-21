@@ -18,11 +18,11 @@
   // Set position sticky so the jumbotron stays fixed while you scroll.
   // position: sticky;
 
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
+  // If you want to set a background image on the hero section, uncomment these with your custom image
 
-  /* background: url("/src/assets/[your-image].png");
+  background: url("/src/assets/my-background.svg");
   background-position: center;
-  background-size: cover; */
+  background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
@@ -65,4 +65,16 @@
       }
     }
   }
+}
+
+.name-tag { 
+  color: rgb(254,254,254);
+  // color: linear-gradient(90deg, rgba(254,254,254,1) 6%, rgba(67,155,169,1) 76%);
+  // background: -webkit-linear-gradient(80deg, rgba(254,254,254,1) 6%, rgba(67,155,169,1) 76%);
+  // -webkit-background-clip: text;
+  // -webkit-text-fill-color: transparent;
+}
+
+h1 { 
+  color: black
 }
